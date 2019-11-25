@@ -1,0 +1,66 @@
+.wrapper {
+    padding: 1em;
+    font-family: arial,sans-serif;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    top: -35px;
+    padding: 0em 56em 0em 7em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 7px 0em 0em -3em;
+    padding; 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 4px 20px;
+}
+
+hr {
+    margin: 7px -56em 0em -8em;
+    opacity: 30%;
+}
+
+.resLink {
+    margin: -15px 0px 0px 0px;
+    color: rgb(1, 71, 1);
+}
+
+.resWrap {
+
+}
+
+h5 {
+    font-size: 15px;
+    color: grey
+}
+
+.resTitle a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.relatedbox {
+    border: solid rgb(194, 194, 194) 1px;
+    padding: 15px;
+}
+
+.itemlist {
+    display: flex;
+}
+
+.relateditem {
+    flex-grow: 1;
+}
