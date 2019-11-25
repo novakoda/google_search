@@ -59,11 +59,15 @@ a {
 	display: flex;
 }
 
+.allbutton {
+	border-bottom: 5px solid #5555FF;
+}
+
 .navright {
-	
 	float: right;
 	display: flex;
 }
+
 
 ul {
     list-style-type: none;
@@ -77,8 +81,9 @@ li {
     padding: 4px 20px;
 }
 
+
 hr {
-    margin: 7px -56em 0em -8em;
+    margin: 0px -56em 0em -8em;
     opacity: 30%;
 }
 
@@ -162,6 +167,7 @@ h4 {
 .feedback h5 {
     float: right;
     margin-top: 5px;
+	margin-bottom: -1em;
     font-style: italic;
 }
 
